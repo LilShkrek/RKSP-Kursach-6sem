@@ -1,0 +1,65 @@
+body, html {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(44, 159, 152);
+}
+.profilePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.linkHomePage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    width: 150px;
+    height: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.imgHomePage {
+    width: 100%;
+    height: 100%;
+}
+
+.userBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 800px;
+    height: 500px;
+}
+
+.userImg {
+    display: inline-block;
+    width: 450px;
+    height: 450px;
+    margin: 0px;
+}
+
+.avatarPic {
+    width: 100%;
+    height: 100%;
+}
+
+.userlogin {
+    display: flex;
+    justify-self: flex-end;
+    justify-content: center;
+    width: 214px;
+    margin: 0 0 0 40px;
+}
+
+.Login {
+    font-size: 60px;
+}
